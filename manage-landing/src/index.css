@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+body {
+  @apply font-sans text-base text-neutral-veryDarkBlue;
+  background-color: theme('colors.neutral.veryLightGray');
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-neutral-darkBlue;
+}
+
+a {
+  @apply text-primary-brightRed;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  @apply text-primary-darkBlue;
+}
