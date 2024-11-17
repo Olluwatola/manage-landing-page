@@ -22,15 +22,7 @@ export default {
         sans: ['"Be Vietnam Pro"', "sans-serif"],
       },
     },
-    fontSize: {
-      base: "16px",
-    },
-    screens: {
-      sm: "320px", // For testing smaller screens
-      md: "768px",
-      lg: "1024px",
-      xl: "1440px", // Aligns with desktop design width
-    },
+   
   },
   plugins: [],
 };
